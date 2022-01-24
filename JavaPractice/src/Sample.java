@@ -1,8 +1,11 @@
 public class Sample {
+
+	static int add(int x,int y)
+	{
+		return x+y;
+	}
 	public static void main(String[] args)
 	{
-		int x=2;
-		int y=4;
-		System.out.println("sum="+(x+y));
+		System.out.println("sum="+add(2,4));
 	}
 }
